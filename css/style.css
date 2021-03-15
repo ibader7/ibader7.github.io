@@ -1,0 +1,1306 @@
+
+
+body {
+  overflow-x: hidden !important;
+  height: 100%;
+  margin: 0;
+  display: block;
+  font-family: aileron,sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  box-shadow: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  line-height: 42px;
+  color: inherit;
+}
+
+nav {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+nav .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: table;
+  width: 100%;
+  padding: 0 50px;
+}
+
+nav .container > div {
+  display: table-cell;
+  width: 50%;
+  height: 70px;
+  vertical-align: middle;
+}
+
+nav .container a.logo {
+  display: inline-block;
+  cursor: pointer;
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  color: black;
+}
+
+.lite {
+  opacity: 0.3;
+}
+
+nav .container a.logo:hover {
+  color: inherit;
+}
+
+nav .container a {
+  transition: 0.3s all 0s ease;
+}
+
+nav .container a:hover {
+  opacity: 0.7;
+}
+
+
+nav .container .logo img {
+  width: 100px;
+}
+
+nav .container .links {
+  text-align: right;
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  height: auto;
+}
+
+nav .container .links a {
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+nav .container .links > a {
+  margin-right: 30px;
+}
+
+nav .container .links > a:last-child {
+  margin-right: 0;
+}
+
+.projects-div {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.projects-div > .row {
+  margin-bottom: 30px;
+}
+
+.projects-div hr {
+  margin-bottom: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column-full {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+.column-small {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.column-big {
+  float: left;
+  width: 66%;
+  padding: 10px;
+}
+
+.projects-div .card-container {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.10);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.10);
+  height: 600px;
+}
+
+.deloitte-card.card, .dt.card-container {
+  height: 400px;
+}
+
+.card {
+  background-color: red;
+  height: 600px;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.18);
+}
+
+.card .label {
+  position: absolute;
+  padding: 10px 20px;
+  color: white;
+  bottom: 20px;
+  left: 20px;
+  font-size: 12px;
+  border-radius: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.3);
+  background-color: #234ef3;
+}
+
+.card .text {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 70px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.card .text .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card .text .desc {
+  font-family: aileron,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.projects-div > div > div > a {
+  display: block;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  -ms-transform: scale(1.01); /* IE 9 */
+  transition: 0.3s all 0s ease;
+}
+
+.oyan-card {
+  background-color: #7028b0;
+  background: url(../img/oyan-card.png) bottom center no-repeat;
+  background-size: auto 600px;
+}
+
+.oyan-card .label {
+  background-color: #AD0000;
+}
+
+.oyan-card .title img {
+  height: 45px;
+}
+
+.oyan-card .text .desc {
+  color: #323232;
+  opacity: 0.7;
+}
+
+.strava-card {
+  background-color: #FC4C01;
+  background: url(../img/strava-card.png) bottom center no-repeat;
+  background-size: auto 600px;
+}
+
+.strava-card .label {
+  background-color: #FC4C01;
+}
+
+.strava-card .title img {
+  height: 45px;
+}
+
+.strava-card .text .desc {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.expenses-card {
+  background-color: #B0BCF6;
+  background: url(../img/expenses-card.png) bottom center no-repeat;
+  background-size: auto 600px;
+}
+
+.expenses-card .label {
+  background-color: #B0BCF6;
+}
+
+.expenses-card .title img {
+  height: 45px;
+}
+
+.expenses-card .text .desc {
+  color: #384673;
+  opacity: 0.7;
+}
+
+.sephora-card {
+  background-color: #CC0000;
+  background: url(../img/sephora-card.png) bottom center no-repeat;
+  background-size: auto 600px;
+}
+
+.sephora-card .label {
+  background-color: #E9E9E9;
+  color: #737679;
+}
+
+.sephora-card .title img {
+  height: 45px;
+}
+
+.sephora-card .text .desc {
+  color: #383d41;
+  opacity: 0.7;
+}
+
+.deloitte-card {
+  background-color: #CC0000;
+  background: url(../img/deloitte-card-1.png) left center no-repeat;
+  background-size: cover;
+}
+
+.deloitte-card .label {
+  background-color: #FAFAFA;
+  color: #737679;
+}
+
+.deloitte-card .title img {
+  height: 45px;
+}
+
+.deloitte-card .text .desc {
+  color: #323232;
+  opacity: 0.7;
+}
+
+p.intro {
+  line-height: 26px;
+}
+
+p.intro > .link {
+  color: #;
+  display: inline;
+  box-shadow: inset 0 -.125rem 0 #;
+  transition: box-shadow .15s ease;
+}
+
+.intro-body .name {
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 42px;
+  letter-spacing: 1px;
+  color: #1089ff;
+}
+
+.intro-body .name .light {
+  color: #BEB0FF;
+}
+
+.intro-body .subtitle {
+  text-transform: uppercase;
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #95b1ff;
+  opacity: 0.7;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.intro-body .subtitle::after {
+  margin: 30px 0;
+  content: '';
+  width: 50px;
+  border-bottom: 1px solid #ccc;
+  display: block;
+}
+
+.intro-body .intro {
+  color: black;
+}
+
+.intro-body .intro img {
+  margin: -3px 10px;
+  height: 30px;
+}
+
+.expenses {
+  color: #384673;
+}
+
+.expenses .about p {
+  opacity: 0.8;
+}
+
+.expenses section {
+  padding-bottom: 100px;
+}
+
+.portfolio .header .content {
+  display: table;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.portfolio .header .content > div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.portfolio .header .content > div:last-child {
+  width: 60%;
+}
+
+.portfolio .header .title {
+  margin-bottom: 30px;
+}
+
+.portfolio .header .subtitle {
+  font-size: 30px;
+  font-family: aileron,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+.portfolio .header .desc {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.portfolio .header {
+  position: relative;
+  padding: 0;
+}
+
+header > div {
+  max-width: 1200px;
+  margin: 80px auto;
+  display: table;
+  padding: 0 50px;
+  width: 100%;
+}
+
+header > div > div  {
+  display: table-cell;
+  width: 50%;
+  height: auto;
+  vertical-align: middle;
+}
+
+header .profile-img img {
+  float: right;
+  border-radius: 50%;
+}
+
+.portfolio .header .title img {
+  height: 60px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.no-margin {
+  margin-left: -50px;
+}
+
+.full-image {
+  display: block;
+  width: 100%;
+}
+
+.full-image img {
+  width: 100%;
+}
+
+.oyan .bottom-bg {
+  position: absolute;
+  background: url(../img/oyan/header-bg.svg) bottom center no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: -50px;
+  width: 101%;
+  height: 100%;
+}
+
+.strava .bottom-bg {
+  position: absolute;
+  background: url(../img/strava/header-bg.svg) bottom center no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: -50px;
+  width: 101%;
+  height: 100%;
+}
+
+.expenses .bottom-bg {
+  position: absolute;
+  background: url(../img/expenses/header-bg.svg) bottom center no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: -50px;
+  width: 101%;
+  height: 100%;
+}
+
+.sephora .bottom-bg {
+  position: absolute;
+  background: url(../img/sephora/header-bg.svg) bottom center no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: -50px;
+  width: 101%;
+  height: 100%;
+}
+
+.strava section {
+  padding-bottom: 100px;
+}
+
+.portfolio .create-protest .content .bottom-bg1 {
+  position: absolute;
+  background: url(../img/oyan/bottom-bg1.svg) bottom center no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: -50px;
+  width: 101%;
+  height: 100%;
+}
+
+.portfolio .concept {
+  margin-top: 45px;
+  padding-bottom: 1px;
+  color: #323232;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.sephora .black-bg {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  background-color: black;
+}
+
+.sephora .black-bg .section-title {
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.sephora .black-bg .text p {
+  color: white;
+  opacity: 0.5;
+  letter-spacing: 0.5px;
+}
+
+.deloitte .black-bg {
+  background-color: black;
+  color: white;
+}
+
+.portfolio .discover {
+  margin-top: 0px;
+}
+
+.portfolio .process {
+  margin-top: 45px;
+}
+
+.grey-bg {
+  display: block;
+  background-color: #FAFAFA;
+}
+
+.grey-bg2 {
+  display: block;
+  background-color: #F7F7F7;
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+
+.grey-bg3 {
+  display: block;
+  background-color: #F8F8FF;
+}
+
+.grey-bg4 {
+  display: block;
+  background-color: #E9E9E9;
+}
+
+.orange-bg {
+  background-color: #FC4C01;
+  display: block;
+}
+
+.sephora nav {
+  background-color: black;
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+
+.sephora nav .container a.logo {
+  color: white;
+}
+
+.sephora nav .container .links a {
+  color: white;
+}
+
+.sephora .header {
+  background-color: black;
+  color: white;
+}
+
+.sephora .header .desc {
+  opacity: 0.5;
+}
+
+.deloitte nav {
+  background-color: black;
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+
+.deloitte nav .container a.logo {
+  color: white;
+}
+
+.deloitte nav .container .links a {
+  color: white;
+}
+
+.deloitte .header {
+  background-color: black;
+  color: white;
+}
+
+section > div {
+  padding: 0 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio .section-title {
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #323232;
+  font-size: 28px;
+  padding-top: 100px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.deloitte .section-title {
+  color: #86bc25;
+}
+
+.expenses .section-title {
+  color: #2B4084;
+}
+
+.portfolio .concept h4 {
+  font-family: aileron,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #323232;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 100;
+  opacity: 0.7;
+  margin-bottom: 0;
+}
+
+.expenses .concept h4 {
+  color: #2B4084;
+  opacity: 0.8;
+}
+
+.portfolio .concept .row > div:first-child {
+  padding-right: 50px;
+}
+
+.portfolio .concept .row > div:last-child {
+  padding-left: 50px;
+}
+
+.portfolio .concept .row > .column {
+  padding-left: 15px;
+}
+
+.portfolio .concept hr {
+  opacity: 0.5;
+}
+
+.portfolio .concept .row {
+  margin-bottom: 50px;
+}
+
+.portfolio .concept p {
+  opacity: 0.7;
+}
+
+.expenses .concept p {
+  color: #384673;
+  opacity: 0.8;
+}
+
+.sephora .about {
+  margin-top: 0;
+}
+
+.sephora .about .row {
+  margin-bottom: 0;
+}
+
+.sephora .about .column {
+  padding-bottom: 0;
+}
+
+.section-table {
+  display: table;
+  width: 100%;
+}
+
+.expenses .section-table {
+  padding-bottom: 50px;
+}
+
+.section-table > div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  padding-right: 25px;
+}
+
+.section-table > div:last-child {
+  padding-left: 25px;
+}
+
+.section-table .gif-image {
+  height: 70vh;
+  display: initial;
+}
+
+.section-table .gif-image img {
+  max-height: 70vh;
+  margin: auto;
+}
+
+.expenses .features .section-table > div {
+  width: 40%;
+}
+
+.features .title {
+  font-size: 18px;
+  color: #384673;
+  margin-bottom: 20px;
+  font-family: aileron,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.features .desc {
+  font-size: 18px;
+  color: #384673;
+  opacity: 0.8
+}
+
+.features .text {
+  padding: 0 50px;
+}
+
+.create-protest {
+  position: relative;
+}
+
+.create-protest .full-image {
+  margin-top: -100px;
+}
+
+.create-protest .title {
+  font-size: 18px;
+  color: #323232;
+  margin-bottom: 20px;
+  font-family: aileron,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.create-protest .desc {
+  font-size: 18px;
+  color: #323232;
+  opacity: 0.7
+}
+
+.create-protest .text {
+  padding: 0 50px;
+}
+
+.section-title.center {
+  text-align: center;
+}
+
+.text .center {
+  text-align: center;
+}
+
+.create-protest .content {
+  padding-bottom: 0px;
+}
+.portfolio .map {
+  margin-top: 0px;
+}
+
+.map .section-desc {
+  font-size: 18px;
+  color: #323232;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.map .section-desc a{
+  color: #86bc25;
+}
+
+.map a{
+  color: #86bc25;
+}
+
+.map .text .title {
+  font-family: aileron,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.map .text {
+  padding: 0 150px;
+}
+
+.map .text p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #323232;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.map .text p.lead {
+  font-family: aileron,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #323232;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 18px;
+  list-style-position: inside;
+  padding-left: 1em;
+  letter-spacing: 0.5px;
+  color: #323232;
+  opacity: 0.7;
+}
+
+ul li a {
+  color: #777;
+}
+
+ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/strava/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+ul li.title {
+  margin-left: 10px;
+  color: #FC4C01;
+  text-transform: uppercase;
+  font-family: aileron,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.oyan ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/oyan/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.oyan ul li.title {
+  margin-left: 10px;
+  color: #AD0000;
+  text-transform: uppercase;
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.expenses ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/expenses/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.expenses ul li {
+  color: #384673;
+  opacity: 0.8;
+}
+
+.expenses ul li.title {
+  margin-left: 10px;
+  color: #B0BCF6;
+  text-transform: uppercase;
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.sephora ul li {
+  color: white;
+  opacity: 0.5;
+}
+
+.sephora ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/sephora/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.sephora .analysis ul li {
+  color: #323232;
+  opacity: 0.7;
+}
+
+.sephora .analysis ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/sephora/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.sephora .analysis ul li.title {
+  margin-left: 10px;
+  color: #CC0000;
+  text-transform: uppercase;
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.sephora .analysis ul li.title::before {
+  content: none;
+}
+
+.deloitte ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/deloitte/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.deloitte ul li {
+  color: #323232;
+  opacity: 0.8;
+}
+
+.deloitte ul li.title {
+  margin-left: 10px;
+  color: #86bc25;
+  text-transform: uppercase;
+  font-family: aileron,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.deloitte .strategy p.lead {
+  opacity: 1;
+  font-style: italic;
+  font-size: 24px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 30px;
+}
+
+.deloitte .notes {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #f7f7f7;
+  display: inline-block;
+}
+
+.deloitte .notes p {
+  margin: 0;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.deloitte .notes .title {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.deloitte .notes a {
+  color: #86bc25;
+}
+
+.deloitte .notes ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+ul li.title::before {
+  content: none;
+}
+
+footer {
+  border-top: 1px solid #eee;
+  display: block;
+  padding: 50px;
+}
+
+footer .content {
+  text-align: center;
+}
+
+footer .content .name {
+  color: black;
+  font-family: 'Muli Black';
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+footer .content .email {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.img-list {
+  display: block;
+}
+
+.img-list > * {
+  display: inline-block;
+}
+
+.img-list img {
+  width: 100px;
+}
+
+footer .img-list {
+  margin-top: 20px;
+}
+
+footer .img-list img {
+  margin: 0 10px;
+  width: 40px;
+}
+
+.mobile-header {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .portfolio .header .title img {
+    height: 40px;
+  }
+
+  .card-container {
+    margin-bottom: 20px;
+  }
+
+  .no-margin-bottom {
+    margin-bottom: 0;
+  }
+
+  .projects-div > .row {
+    margin-bottom: 0;
+  }
+
+  nav .container .logo img {
+    width: 100px;
+  }
+
+  nav .container .links a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .desktop-header {
+    display: none !important;
+  }
+  nav .container > div {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  nav .container .links {
+    text-align: center;
+  }
+
+  .projects-div {
+    padding: 0 20px;
+  }
+
+  nav .container > a.logo {
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+  }
+
+  nav {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+  }
+
+  nav::after {
+    content: '';
+    border-bottom: 1px solid black;
+    width: 50px;
+    margin: 10px auto;
+  }
+
+  .deloitte-card.card, .dt.card-container {
+    height: 600px;
+    background: url(../img/deloitte-card-mobile.png) left center no-repeat;
+    background-size: cover;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .intro-body .name {
+    font-size: 20px;
+  }
+
+  header > div {
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  header > div > div {
+    display: block;
+    width: 100%;
+  }
+
+  header .profile-img img {
+    float: unset;
+    width: 120px;
+    margin: auto;
+  }
+
+  header .intro-body {
+    text-align: center;
+  }
+
+  .intro-body .subtitle::after {
+    display: none;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .portfolio .header {
+    padding: 0;
+  }
+
+  .portfolio .header .content {
+    padding: 0;
+  }
+
+  .portfolio .header .content > div {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .portfolio .header .content > div:last-child {
+    width: 100%;
+  }
+
+  .portfolio .header .title img {
+  height: 40px;
+  }
+
+  .portfolio .bottom-bg {
+    display: none;
+  }
+
+  .portfolio section {
+    padding: 20px;
+  }
+
+  .portfolio .concept .row .column {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .portfolio .concept .row > div:last-child {
+    padding-left: 15px;
+  }
+
+  .section-table > div {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .section-table > div:last-child {
+    padding-left: 0;
+  }
+
+  .expenses .features .text {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .expenses .features .section-table > div {
+    width: 100%;
+  }
+
+  .create-protest .text {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .create-protest img {
+    margin-bottom: 30px;
+  }
+
+  .create-protest .content {
+    padding-bottom: 0;
+  }
+
+  .create-protest .full-image {
+    margin-top: 0px;
+  }
+
+  section > div {
+  padding: 0 20px;
+  }
+
+  .portfolio .section-title {
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .map .text {
+    padding: 0;
+  }
+}
