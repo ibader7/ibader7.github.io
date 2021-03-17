@@ -199,7 +199,7 @@ nav .container .links > a:last-child {
 
 .card .text .desc {
   font-family: aileron,sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-size: 18px;
   opacity: 0.8;
@@ -219,40 +219,40 @@ nav .container .links > a:last-child {
   transition: 0.3s all 0s ease;
 }
 
-.oyan-card {
+.morehouse-card {
   background-color: #7028b0;
-  background: url(../img/oyan-card.png) bottom center no-repeat;
-  background-size: auto 600px;
+  background: url(../img/morehouse-barbers-card-alt.jpg) top center no-repeat;
+  background-size: 545px auto;
 }
 
-.oyan-card .label {
-  background-color: #AD0000;
+.morehouse-card .label {
+  background-color: #098D91;
 }
 
-.oyan-card .title img {
-  height: 45px;
+.morehouse-card .title img {
+  height: 75px;
 }
 
-.oyan-card .text .desc {
-  color: #323232;
+.morehouse-card .text .desc {
+  color: #b3b3b3;
   opacity: 0.7;
 }
 
-.strava-card {
+.lumos-card {
   background-color: #FC4C01;
-  background: url(../img/strava-card.png) bottom center no-repeat;
+  background: url(../img/lumos-helmet-card-alt.png) bottom center no-repeat;
   background-size: auto 600px;
 }
 
-.strava-card .label {
-  background-color: #FC4C01;
+.lumos-card .label {
+  background-color: #84254c;
 }
 
-.strava-card .title img {
+.lumos-card .title img {
   height: 45px;
 }
 
-.strava-card .text .desc {
+.lumos-card .text .desc {
   color: #ffffff;
   opacity: 0.7;
 }
