@@ -276,22 +276,22 @@ nav .container .links > a:last-child {
   opacity: 0.7;
 }
 
-.sephora-card {
+.morehouse-card {
   background-color: #CC0000;
-  background: url(../img/sephora-card.png) bottom center no-repeat;
+  background: url(../img/morehouse-card.png) bottom center no-repeat;
   background-size: auto 600px;
 }
 
-.sephora-card .label {
+.morehouse-card .label {
   background-color: #E9E9E9;
   color: #737679;
 }
 
-.sephora-card .title img {
+.morehouse-card .title img {
   height: 45px;
 }
 
-.sephora-card .text .desc {
+.morehouse-card .text .desc {
   color: #383d41;
   opacity: 0.7;
 }
@@ -493,9 +493,9 @@ header .profile-img img {
   height: 100%;
 }
 
-.sephora .bottom-bg {
+.morehouse .bottom-bg {
   position: absolute;
-  background: url(../img/sephora/header-bg.svg) bottom center no-repeat;
+  background: url(../img/morehouse/header-bg.svg) bottom center no-repeat;
   background-size: contain;
   left: 0;
   bottom: -50px;
@@ -525,18 +525,18 @@ header .profile-img img {
   font-size: 18px;
 }
 
-.sephora .black-bg {
+.morehouse .black-bg {
   margin-top: -1px;
   margin-bottom: -1px;
   background-color: black;
 }
 
-.sephora .black-bg .section-title {
+.morehouse .black-bg .section-title {
   color: white;
   letter-spacing: 0.5px;
 }
 
-.sephora .black-bg .text p {
+.morehouse .black-bg .text p {
   color: white;
   opacity: 0.5;
   letter-spacing: 0.5px;
@@ -582,27 +582,37 @@ header .profile-img img {
   display: block;
 }
 
-.sephora nav {
+.morehouse nav {
   background-color: black;
   padding: 50px 0 20px 0;
   margin: 0;
 }
 
-.sephora nav .container a.logo {
+.morehouse nav .container a.logo {
   color: white;
 }
 
-.sephora nav .container .links a {
+.morehouse nav .container .links a {
   color: white;
 }
 
-.sephora .header {
+.morehouse .header {
   background-color: black;
+  background: url(../img/morehouse/morehouse-header-bg-alt.jpg) center top no-repeat;
+  background-size: cover;
   color: white;
+  text-align: center;
+  height: 600px;
 }
 
-.sephora .header .desc {
+.morehouse .header .title img {
+  height: 100px;
+  margin-top: 70px;
+}
+
+.morehouse .header .desc {
   opacity: 0.5;
+  font-weight: 300;
 }
 
 .deloitte nav {
@@ -639,7 +649,6 @@ section > div {
   padding-top: 100px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-weight: 100;
   margin-bottom: 30px;
 }
 
@@ -698,15 +707,15 @@ section > div {
   opacity: 0.8;
 }
 
-.sephora .about {
+.morehouse .about {
   margin-top: 0;
 }
 
-.sephora .about .row {
+.morehouse .about .row {
   margin-bottom: 0;
 }
 
-.sephora .about .column {
+.morehouse .about .column {
   padding-bottom: 0;
 }
 
@@ -942,39 +951,39 @@ ul li.title {
   font-style: normal;
 }
 
-.sephora ul li {
+.morehouse ul li {
   color: white;
   opacity: 0.5;
 }
 
-.sephora ul li::before {
+.morehouse ul li::before {
   content: '';
   display: inline-block;
   height: 10px;
   width: 18px;
-  background: url(../img/sephora/bullet.svg) center center no-repeat;
+  background: url(../img/morehouse/bullet.svg) center center no-repeat;
   background-size: 6px;
   background-position-y: 0;
   background-position-x: 0;
 }
 
-.sephora .analysis ul li {
+.morehouse .analysis ul li {
   color: #323232;
   opacity: 0.7;
 }
 
-.sephora .analysis ul li::before {
+.morehouse .analysis ul li::before {
   content: '';
   display: inline-block;
   height: 10px;
   width: 18px;
-  background: url(../img/sephora/bullet.svg) center center no-repeat;
+  background: url(../img/morehouse/bullet.svg) center center no-repeat;
   background-size: 6px;
   background-position-y: 0;
   background-position-x: 0;
 }
 
-.sephora .analysis ul li.title {
+.morehouse .analysis ul li.title {
   margin-left: 10px;
   color: #CC0000;
   text-transform: uppercase;
@@ -983,7 +992,7 @@ ul li.title {
   font-style: normal;
 }
 
-.sephora .analysis ul li.title::before {
+.morehouse .analysis ul li.title::before {
   content: none;
 }
 
