@@ -276,26 +276,6 @@ nav .container .links > a:last-child {
   opacity: 0.7;
 }
 
-.morehouse-card {
-  background-color: #CC0000;
-  background: url(../img/morehouse-card.png) bottom center no-repeat;
-  background-size: auto 600px;
-}
-
-.morehouse-card .label {
-  background-color: #E9E9E9;
-  color: #737679;
-}
-
-.morehouse-card .title img {
-  height: 45px;
-}
-
-.morehouse-card .text .desc {
-  color: #383d41;
-  opacity: 0.7;
-}
-
 .deloitte-card {
   background-color: #CC0000;
   background: url(../img/deloitte-card-1.png) left center no-repeat;
