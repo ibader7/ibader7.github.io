@@ -980,6 +980,10 @@ ul li.title {
   content: none;
 }
 
+.morehouse a {
+  color: #098D91;
+}
+
 .deloitte ul li::before {
   content: '';
   display: inline-block;
