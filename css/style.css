@@ -670,6 +670,10 @@ section > div {
   padding-left: 15px;
 }
 
+.portfolio .lightbox {
+  margin-bottom: 15px;
+}
+
 .portfolio .concept hr {
   opacity: 0.5;
 }
