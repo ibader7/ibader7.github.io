@@ -157,10 +157,6 @@ nav .container .links > a:last-child {
   height: 600px;
 }
 
-.deloitte-card.card, .dt.card-container {
-  height: 400px;
-}
-
 .card {
   background-color: red;
   height: 600px;
@@ -273,26 +269,6 @@ nav .container .links > a:last-child {
 
 .expenses-card .text .desc {
   color: #384673;
-  opacity: 0.7;
-}
-
-.deloitte-card {
-  background-color: #CC0000;
-  background: url(../img/deloitte-card-1.png) left center no-repeat;
-  background-size: cover;
-}
-
-.deloitte-card .label {
-  background-color: #FAFAFA;
-  color: #737679;
-}
-
-.deloitte-card .title img {
-  height: 45px;
-}
-
-.deloitte-card .text .desc {
-  color: #323232;
   opacity: 0.7;
 }
 
@@ -473,16 +449,6 @@ header .profile-img img {
   height: 100%;
 }
 
-.morehouse .bottom-bg {
-  position: absolute;
-  background: url(../img/morehouse/header-bg.svg) bottom center no-repeat;
-  background-size: contain;
-  left: 0;
-  bottom: -50px;
-  width: 101%;
-  height: 100%;
-}
-
 .strava section {
   padding-bottom: 100px;
 }
@@ -522,7 +488,7 @@ header .profile-img img {
   letter-spacing: 0.5px;
 }
 
-.deloitte .black-bg {
+.lumos .black-bg {
   background-color: black;
   color: white;
 }
@@ -595,23 +561,36 @@ header .profile-img img {
   font-weight: 300;
 }
 
-.deloitte nav {
+.lumos nav {
   background-color: black;
   padding: 50px 0 20px 0;
   margin: 0;
 }
 
-.deloitte nav .container a.logo {
+.lumos nav .container a.logo {
   color: white;
 }
 
-.deloitte nav .container .links a {
+.lumos nav .container .links a {
   color: white;
 }
 
-.deloitte .header {
+.lumos .header {
   background-color: black;
+  background: url(../img/lumos/lumos-intro.png) center center no-repeat;
+  background-size: cover;
   color: white;
+  text-align: center;
+  height: 600px;
+}
+
+.lumos .header .title {
+  margin-top: 70px;
+}
+
+.lumos .header .desc {
+  opacity: 0.5;
+  font-weight: 300;
 }
 
 section > div {
@@ -630,10 +609,6 @@ section > div {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 30px;
-}
-
-.deloitte .section-title {
-  color: #86bc25;
 }
 
 .expenses .section-title {
@@ -679,7 +654,7 @@ section > div {
 }
 
 .portfolio .concept .row {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .portfolio .concept p {
@@ -984,23 +959,23 @@ ul li.title {
   color: #098D91;
 }
 
-.deloitte ul li::before {
+.lumos ul li::before {
   content: '';
   display: inline-block;
   height: 10px;
   width: 18px;
-  background: url(../img/deloitte/bullet.svg) center center no-repeat;
+  background: url(../img/lumos/bullet.svg) center center no-repeat;
   background-size: 6px;
   background-position-y: 0;
   background-position-x: 0;
 }
 
-.deloitte ul li {
+.lumos ul li {
   color: #323232;
   opacity: 0.8;
 }
 
-.deloitte ul li.title {
+.lumos ul li.title {
   margin-left: 10px;
   color: #86bc25;
   text-transform: uppercase;
@@ -1009,7 +984,7 @@ ul li.title {
   font-style: normal;
 }
 
-.deloitte .strategy p.lead {
+.lumos .strategy p.lead {
   opacity: 1;
   font-style: italic;
   font-size: 24px;
@@ -1017,21 +992,21 @@ ul li.title {
   padding-bottom: 30px;
 }
 
-.deloitte .notes {
+.lumos .notes {
   margin-top: 20px;
   padding: 30px;
   background-color: #f7f7f7;
   display: inline-block;
 }
 
-.deloitte .notes p {
+.lumos .notes p {
   margin: 0;
   font-size: 14px;
   line-height: normal;
   margin-bottom: 10px;
 }
 
-.deloitte .notes .title {
+.lumos .notes .title {
   margin-bottom: 0;
   font-size: 13px;
   text-transform: uppercase;
@@ -1042,11 +1017,11 @@ ul li.title {
   color: #aaa;
 }
 
-.deloitte .notes a {
+.lumos .notes a {
   color: #86bc25;
 }
 
-.deloitte .notes ul li {
+.lumos .notes ul li {
   margin-bottom: 10px;
   font-size: 14px;
 }
@@ -1171,9 +1146,9 @@ footer .img-list img {
     margin: 10px auto;
   }
 
-  .deloitte-card.card, .dt.card-container {
+  .lumos-card.card, .dt.card-container {
     height: 600px;
-    background: url(../img/deloitte-card-mobile.png) left center no-repeat;
+    background: url(../img/lumos-card-mobile.png) left center no-repeat;
     background-size: cover;
   }
 
