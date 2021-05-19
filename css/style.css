@@ -1166,12 +1166,6 @@ footer .img-list img {
     margin: 10px auto;
   }
 
-  .lumos-card.card, .dt.card-container {
-    height: 600px;
-    background: url(../img/lumos-card-mobile.png) left center no-repeat;
-    background-size: cover;
-  }
-
   .mobile-header {
     display: block;
   }
