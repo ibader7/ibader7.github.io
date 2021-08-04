@@ -177,6 +177,10 @@ nav .container .links > a:last-child {
   height: 600px;
 }
 
+.momococoa-card.card, .dt.card-container {
+  height: 400px;
+}
+
 .card {
   background-color: red;
   height: 600px;
@@ -292,6 +296,26 @@ nav .container .links > a:last-child {
   opacity: 0.7;
 }
 
+.momococoa-card {
+  background-color: #CC0000;
+  background: url(../img/momococoa-card.png) left center no-repeat;
+  background-size: cover;
+}
+
+.momococoa-card .label {
+  background-color: #FAFAFA;
+  color: #737679;
+}
+
+.momococoa-card .title img {
+  height: 45px;
+}
+
+.momococoa-card .text .desc {
+  color: #323232;
+  opacity: 0.7;
+}
+
 p.intro {
   line-height: 26px;
 }
@@ -344,15 +368,11 @@ p.intro > .link {
   height: 30px;
 }
 
-.expenses {
-  color: #384673;
-}
-
-.expenses .about p {
+.momococoa .about p {
   opacity: 0.8;
 }
 
-.expenses section {
+.momococoa section {
   padding-bottom: 100px;
 }
 
@@ -420,6 +440,10 @@ header .profile-img img {
   height: 60px;
 }
 
+.momococoa .header .title img {
+    height: 160px;
+}
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -459,9 +483,9 @@ header .profile-img img {
   height: 100%;
 }
 
-.expenses .bottom-bg {
+.momococoa .bottom-bg {
   position: absolute;
-  background: url(../img/expenses/header-bg.svg) bottom center no-repeat;
+  background: url(../img/momococoa/header-bg.svg) bottom center no-repeat;
   background-size: contain;
   left: 0;
   bottom: -50px;
@@ -540,7 +564,7 @@ header .profile-img img {
 
 .grey-bg4 {
   display: block;
-  background-color: #E9E9E9;
+  background-color: #f0efed;
 }
 
 .orange-bg {
@@ -631,10 +655,6 @@ section > div {
   margin-bottom: 30px;
 }
 
-.expenses .section-title {
-  color: #2B4084;
-}
-
 .portfolio .concept h4 {
   font-family: aileron,sans-serif;
   font-weight: 700;
@@ -648,7 +668,7 @@ section > div {
   margin-bottom: 0;
 }
 
-.expenses .concept h4 {
+.momococoa .concept h4 {
   color: #2B4084;
   opacity: 0.8;
 }
@@ -681,8 +701,7 @@ section > div {
   opacity: 0.7;
 }
 
-.expenses .concept p {
-  color: #384673;
+.momococoa .concept p {
   opacity: 0.8;
 }
 
@@ -703,7 +722,7 @@ section > div {
   width: 100%;
 }
 
-.expenses .section-table {
+.momococoa .section-table {
   padding-bottom: 50px;
 }
 
@@ -728,7 +747,7 @@ section > div {
   margin: auto;
 }
 
-.expenses .features .section-table > div {
+.momococoa .features .section-table > div {
   width: 40%;
 }
 
@@ -905,29 +924,95 @@ ul li.title {
   font-style: normal;
 }
 
-.expenses ul li::before {
+.momococoa ul li::before {
   content: '';
   display: inline-block;
   height: 10px;
   width: 18px;
-  background: url(../img/expenses/bullet.svg) center center no-repeat;
+  background: url(../img/momococoa/bullet.svg) center center no-repeat;
   background-size: 6px;
   background-position-y: 0;
   background-position-x: 0;
 }
 
-.expenses ul li {
-  color: #384673;
+.momococoa ul li {
   opacity: 0.8;
 }
 
-.expenses ul li.title {
+.momococoa ul li.title {
   margin-left: 10px;
-  color: #B0BCF6;
+  color: #64c67d;
   text-transform: uppercase;
   font-family: aileron,sans-serif;
   font-weight: 800;
   font-style: normal;
+}
+
+.momococoa .strategy p.lead {
+  opacity: 1;
+  font-style: italic;
+  font-size: 24px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 30px;
+}
+
+.momococoa .notes {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #f0efed;
+  display: inline-block;
+}
+
+.momococoa .notes p {
+  margin: 0;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.momococoa .notes .title {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #323232;
+}
+
+.momococoa .notes a {
+  color: #86bc25;
+}
+
+.momococoa .notes ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.momococoa .iterations img {
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.momococoa .reflection {
+  color: #64c67d;
+}
+
+.momococoa .map .section-desc a {
+    color: #64c67d;
+}
+
+.map .text p.lead {
+    font-family: aileron,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #64c67d;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .morehouse ul li {
@@ -1106,6 +1191,10 @@ footer .img-list img {
     height: 40px;
   }
 
+  .momococoa .header .title img {
+    height: 80px;
+  }
+
   .card-container {
     margin-bottom: 20px;
   }
@@ -1166,6 +1255,12 @@ footer .img-list img {
     margin: 10px auto;
   }
 
+  .momococoa-card.card, .dt.card-container {
+    height: 600px;
+    background: url(../img/momococoa-card.png) left center no-repeat;
+    background-size: cover;
+  }
+
   .mobile-header {
     display: block;
   }
@@ -1224,6 +1319,10 @@ footer .img-list img {
   height: 40px;
   }
 
+  .momococoa .header .title img {
+    height: 100px;
+}
+
   .portfolio .bottom-bg {
     display: none;
   }
@@ -1252,12 +1351,12 @@ footer .img-list img {
     padding-left: 0;
   }
 
-  .expenses .features .text {
+  .momococoa .features .text {
     padding: 0;
     margin-bottom: 30px;
   }
 
-  .expenses .features .section-table > div {
+  .momococoa .features .section-table > div {
     width: 100%;
   }
 
