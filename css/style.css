@@ -308,7 +308,7 @@ nav .container .links > a:last-child {
 }
 
 .momococoa-card .title img {
-  height: 45px;
+    height: 110px;
 }
 
 .momococoa-card .text .desc {
@@ -1257,7 +1257,7 @@ footer .img-list img {
 
   .momococoa-card.card, .dt.card-container {
     height: 600px;
-    background: url(../img/momococoa-card.png) left center no-repeat;
+    background: url(../img/momococoa-card-mobile.png) left center no-repeat;
     background-size: cover;
   }
 
