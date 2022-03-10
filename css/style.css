@@ -177,7 +177,7 @@ nav .container .links > a:last-child {
   height: 600px;
 }
 
-.momococoa-card.card, .dt.card-container {
+.dt.card-container {
   height: 400px;
 }
 
@@ -239,6 +239,25 @@ nav .container .links > a:last-child {
   transition: 0.3s all 0s ease;
 }
 
+.bodyenergyclub-card {
+  background-color: #1f82c5;
+  background: url(../img/bodyenergyclub-card.png) center center no-repeat;
+  background-size: 545px auto;
+}
+
+.bodyenergyclub-card .label {
+  background-color: #1f82c5;
+}
+
+.bodyenergyclub-card .title img {
+  height: 40px;
+}
+
+.bodyenergyclub-card .text .desc {
+  color: #b3b3b3;
+  opacity: 0.7;
+}
+
 .morehouse-card {
   background-color: #7028b0;
   background: url(../img/morehouse-barbers-card-alt.jpg) top center no-repeat;
@@ -298,7 +317,7 @@ nav .container .links > a:last-child {
 
 .momococoa-card {
   background-color: #CC0000;
-  background: url(../img/momococoa-card.png) left center no-repeat;
+  background: url(../img/momococoa-card-alt.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -444,6 +463,10 @@ header .profile-img img {
     height: 160px;
 }
 
+.bodyenergyclub .header .title img {
+    height: 74px;
+}
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -463,9 +486,9 @@ header .profile-img img {
   width: 100%;
 }
 
-.oyan .bottom-bg {
+.bodyenergyclub .bottom-bg {
   position: absolute;
-  background: url(../img/oyan/header-bg.svg) bottom center no-repeat;
+  background: url(../img/bodyenergyclub/header-bg.svg) bottom center no-repeat;
   background-size: contain;
   left: 0;
   bottom: -50px;
@@ -499,7 +522,7 @@ header .profile-img img {
 
 .portfolio .create-protest .content .bottom-bg1 {
   position: absolute;
-  background: url(../img/oyan/bottom-bg1.svg) bottom center no-repeat;
+  background: url(../img/bodyenergyclub/bottom-bg1.svg) bottom center no-repeat;
   background-size: contain;
   left: 0;
   bottom: -50px;
@@ -635,6 +658,18 @@ header .profile-img img {
 .lumos .header .desc {
   opacity: 0.5;
   font-weight: 300;
+}
+
+.bodyenergyclub .header {
+  background-color: #ffffff;
+  background-size: cover;
+  color: #323232;
+  text-align: center;
+  height: 600px;
+}
+
+.bodyenergyclub .header .desc {
+  opacity: 0.7;
 }
 
 section > div {
@@ -904,24 +939,25 @@ ul li.title {
   font-style: normal;
 }
 
-.oyan ul li::before {
+.bodyenergyclub ul li::before {
   content: '';
   display: inline-block;
   height: 10px;
   width: 18px;
-  background: url(../img/oyan/bullet.svg) center center no-repeat;
+  background: url(../img/bodyenergyclub/bullet.svg) center center no-repeat;
   background-size: 6px;
   background-position-y: 0;
   background-position-x: 0;
 }
 
-.oyan ul li.title {
+.bodyenergyclub ul li.title {
   margin-left: 10px;
-  color: #AD0000;
+  color: #1f82c5;
   text-transform: uppercase;
   font-family: aileron,sans-serif;
   font-weight: 800;
   font-style: normal;
+  opacity: 1;
 }
 
 .momococoa ul li::before {
@@ -1255,7 +1291,7 @@ footer .img-list img {
     margin: 10px auto;
   }
 
-  .momococoa-card.card, .dt.card-container {
+  .dt.card-container {
     height: 600px;
     background: url(../img/momococoa-card-mobile.png) left center no-repeat;
     background-size: cover;
