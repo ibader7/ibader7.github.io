@@ -239,6 +239,77 @@ nav .container .links > a:last-child {
   transition: 0.3s all 0s ease;
 }
 
+.artistsgardenloft-card {
+  background-color: #0a6441;
+  background: url(../img/artists-garden-loft-card.png) center center no-repeat;
+  background-size: cover;
+}
+
+.artistsgardenloft-card .text {
+  margin-top: 32px;
+  text-shadow: 1px 1px 16px #000000;
+}
+
+.artistsgardenloft-card .label {
+  background-color: #0a6441;
+  color: #ffffff;
+}
+
+.artistsgardenloft-card .title img {
+  height: 120px;
+}
+
+.artistsgardenloft-card .title >p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: -24px;
+  letter-spacing: 4px;
+}
+
+.artistsgardenloft-card .title >p:last-child {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  margin-top: 0;
+  letter-spacing: 4px;
+}
+
+.artistsgardenloft-card .text .desc {
+  color: #b3b3b3;
+  opacity: 0.7;
+}
+
+.temarimo-card {
+  background-color: #376312;
+  background: url(../img/temarimo-card.png) center center no-repeat;
+  background-size: cover;
+}
+
+.temarimo-card .text {
+  margin-top: 32px;
+  text-shadow: 1px 1px 16px #000000;
+}
+
+.temarimo-card .label {
+  background-color: #376312;
+  color: #ffffff;
+}
+
+.temarimo-card .title >p {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  margin-top: 134px;
+  letter-spacing: 4px;
+}
+
 .bodyenergyclub-card {
   background-color: #1f82c5;
   background: url(../img/bodyenergyclub-card.png) center center no-repeat;
@@ -467,6 +538,18 @@ header .profile-img img {
     height: 74px;
 }
 
+.artistsgardenloft .header .title img {
+    height: 120px;
+}
+
+.artistsgardenloft .header .title {
+  text-shadow: 1px 1px 16px #000000;
+}
+
+.temarimo .header .title img {
+    height: 220px;
+}
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -593,6 +676,66 @@ header .profile-img img {
 .orange-bg {
   background-color: #FC4C01;
   display: block;
+}
+
+.artistsgardenloft .header {
+  background-color: black;
+  background: url(../img/artistsgardenloft/artists-garden-loft-header.png) center top no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 600px;
+}
+
+.artistsgardenloft .header .title >p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: -24px;
+  letter-spacing: 4px;
+}
+
+.artistsgardenloft .header .title >p:last-child {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 64px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 0;
+  letter-spacing: 4px;
+}
+
+.artistsgardenloft a {
+  color: #0a6441;
+}
+
+.artistsgardenloft section, .temarimo section {
+  padding-bottom: 32px;
+}
+
+.temarimo .header {
+  background-color: white;
+  background: url(../img/temarimo/temarimo-header.png) center top no-repeat;
+  background-size: cover;
+  color: #000000;
+  text-align: center;
+  height: 600px;
+}
+
+.temarimo .header .title >p {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  letter-spacing: 4px;
+}
+
+.temarimo a {
+  color: #376312;
 }
 
 .morehouse nav {
@@ -1353,6 +1496,31 @@ footer .img-list img {
 
   .portfolio .header .title img {
   height: 40px;
+  }
+
+  .temarimo-card .title>p {
+    margin-top: 32px;
+  }
+
+  .artistsgardenloft .header .title img {
+    height: 100px;
+  }
+
+  .artistsgardenloft .header .title >p {
+    margin: 0;
+  }
+
+  .artistsgardenloft .header .title >p:last-child {
+    font-size: 40px;
+  }
+
+  .temarimo .header {
+    background: white;
+    height: auto;
+  }
+
+  .temarimo .header .title img {
+    height: 200px;
   }
 
   .momococoa .header .title img {
